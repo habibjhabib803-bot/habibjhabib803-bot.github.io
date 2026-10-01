@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Profil Cafe Kopi</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #222;
+
+            /* Background geometris */
+            background:
+                linear-gradient(135deg, #eeeeee 25%, transparent 25%) -20px 0/80px 80px,
+                linear-gradient(225deg, #dddddd 25%, transparent 25%) -20px 0/80px 80px,
+                linear-gradient(315deg, #eeeeee 25%, transparent 25%) 0 0/80px 80px,
+                linear-gradient(45deg, #dddddd 25%, #f5f5f5 25%) 0 0/80px 80px;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: auto;
+            padding: 25px 35px;
+            background: rgba(255,255,255,0.35);
+            min-height: 100vh;
+        }
+
+        /* Logo */
+        .logo {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .logo img {
+            width: 180px;
+            max-width: 80%;
+        }
+
+        /* Navigasi */
+        nav {
+            text-align: center;
+            margin: 20px 0 50px;
+        }
+
+        nav a {
+            color: #35147d;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        /* Judul */
+        h1 {
+            text-align: center;
+            font-size: 43px;
+            line-height: 1.35;
+            margin-bottom: 60px;
+        }
+
+        .slogan {
+            text-align: center;
+            font-size: 24px;
+            font-style: italic;
+            line-height: 1.5;
+        }
+
+        hr {
+            margin: 35px 0;
+            border: none;
+            border-top: 1px solid #999;
+        }
+
+        /* Deskripsi */
+        .deskripsi {
+            font-size: 23px;
+            line-height: 1.65;
+        }
+
+        .harga {
+            background: yellow;
+            padding: 2px 5px;
+        }
+
+        /* Menu */
+        h2 {
+            font-size: 36px;
+            margin-top: 35px;
+        }
+
+        ul {
+            font-size: 23px;
+            line-height: 1.7;
+        }
+
+        ul ul {
+            margin-top: 0;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            margin-top: 70px;
+            padding-bottom: 20px;
+            font-size: 18px;
+            color: #555;
+        }
+
+        /* Agar bagus di HP */
+        @media (max-width: 500px) {
+
+            .container {
+                padding: 20px;
+            }
+
+            nav a {
+                font-size: 17px;
+            }
+
+            h1 {
+                font-size: 36px;
+            }
+
+            .slogan {
+                font-size: 20px;
+            }
+
+            .deskripsi {
+                font-size: 20px;
+            }
+
+            h2 {
+                font-size: 30px;
+            }
+
+            ul {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- LOGO -->
+        <div class="logo">
+            <img src="macan.jpg" alt="macan,jpg">
+        </div>
+
+        <!-- NAVIGASI -->
+        <nav>
+            <a href="index.html">Beranda</a>
+            |
+            <a href="jadwal.html">Jadwal operasional</a>
+        </nav>
+
+        <!-- JUDUL -->
+        <h1>
+            Selamat Datang pencak silat<br>
+            
+        </h1>
+
+        <!-- SLOGAN -->
+        <div class="slogan">
+            "Tempat terbaik untuk bela diri dan jurus,
+            ."
+        </div>
+
+        <hr>
+
+        <!-- DESKRIPSI -->
+        <div class="deskripsi">
+            Pencak silat adalah seni bela diri asli Nusantara yang menggabungkan kemampuan bertarung, seni gerak, nilai budaya, dan kerohanian
+             
+             
+            
+         
+
+            <span class="harga">
+                di dirikan pada tahun 1948
+            </span>
+
+         
+        </div>
+
+        <!-- MENU -->
+        <h2>MATERI LATIHAN</h2>
+
+        <ul>
+            <li>
+                SABTU
+                <ul>
+                    <li>Tendangan</li>
+                    <li>jurus</li>
+                </ul>
+            </li>
+
+            <li>
+                MINGGU
+                <ul>
+                    <li>Fisik</li>
+                    <li>Tanding</li>
+                </ul>
+            </li>
+        </ul>
+
+        <!-- FOOTER -->
+        <footer>
+             TT:silat_skansa_2526
+        </footer>
+
+    </div>
+
+</body>
+</html>

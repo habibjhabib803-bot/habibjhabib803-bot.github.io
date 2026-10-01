@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadwal Operasional</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: #e0e4e7;
+    background-image: linear-gradient(135deg, #d0d7dc 25%, transparent 25%),
+                      linear-gradient(225deg, #d0d7dc 25%, transparent 25%);
+    background-size: 40px 40px;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    max-width: 450px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo img {
+            width: 180px;
+            max-width: 80%;
+    color: #0066cc;
+}
+
+.nav {
+    color: #6a0dad;
+    margin-bottom: 30px;
+}
+.nav a {
+    color: #6a0dad;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 26px;
+    margin-bottom: 25px;
+    color: #222;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background: white;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+}
+
+th, td {
+    border: 1px solid #999;
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+}
+
+th {
+    background: #f0f0f0;
+    font-weight: bold;
+}
+
+.catatan {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.footer {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #555;
+}
+</style>
+<body>
+    <div class="container">
+        <!-- Logo & Navigasi -->
+        <div class="logo">
+                        <img src="macan.jpg" alt="Logo.jpg">
+        </div>
+        <nav class="nav">
+            <a href="Index.html">beranda</a> | <a href="jadwal.html">Jadwal Operasional</a>
+        </nav>
+
+        <!-- Judul -->
+        <h1>Jam Operasional Pencak Silat</h1>
+
+        <!-- Tabel Jadwal -->
+        <table>
+            <tr>
+                <th>Hari</th>
+                <th>jam latihan</th>
+            </tr>
+            <tr>
+                <td>SABTU</td>
+                <td>15.00 - 20.00</td>
+            </tr>
+            <tr>
+                <td>Minggu</td>
+                <td>20.00 - 23.00</td>
+            </tr>
+            <tr>
+                <td colspan="2" class="catatan">Format waktu dalam WIB</td>
+            </tr>
+        </table>
+
+        <!-- Footer -->
+        <p class="footer">TT:silat_skansa_2526</p>
+    </div>
+</body>
+</html>
